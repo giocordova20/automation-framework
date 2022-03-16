@@ -20,7 +20,17 @@ public class Login_PO extends Base_PO {
     }
 
     public void navigateTo_WebdriverUniversity_LoginPage() {
+
+        try
+        {
         navigateTo_URL(Global_Vars.WEBDRIVER_UNIVERSITY_HOMEPAGE_URL + "/Login-Portal/index.html?");
+            Thread.sleep(2000);
+
+        }
+        catch(InterruptedException e)
+        {
+            // this part is executed when an exception (in this example InterruptedException) occurs
+        }
     }
 
     public void setUsername(String username) {

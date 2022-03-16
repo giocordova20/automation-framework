@@ -18,7 +18,7 @@ public class Base_PO {
         PageFactory.initElements(getDriver(), this); // initialize all page objects which extend the base page
     }
 
-    public WebDriver getDriver(){
+    public WebDriver getDriver() {
         return DriverFactory.getDriver();
     }
 

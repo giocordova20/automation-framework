@@ -10,7 +10,7 @@ import pageObjects.Contact_Us_PO;
 
 
 public class Contact_Us_Steps extends Base_PO {
-    private WebDriver driver;
+//    private WebDriver driver;
 //
 //    @Before("@contact-us")
 //    public void setup() {
